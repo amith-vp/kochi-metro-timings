@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import L, { LatLngTuple, PointTuple, divIcon } from 'leaflet';
 import { Radio } from "lucide-react"; 
 import { useDataContext } from '../context/DataContext';
+import { Clock } from './Clock'; // Import the Clock component
 
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -218,11 +219,12 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-lg">
-      <div className="flex gap-4 items-center mb-4">
+      <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold flex items-center gap-2">
           <Radio className="w-6 h-6" />
           Metro Map
         </h2>
+        <Clock currentTime={new Date()} /> {/* Render the Clock component */}
       </div>
       <div className="h-[600px] rounded-lg overflow-hidden">
         <MapContainer
