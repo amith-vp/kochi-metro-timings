@@ -1,0 +1,13 @@
+{
+  "agency": [
+    {
+      "agency_id": "KMRL",
+      "agency_name": "Kochi Metro Rail Limited",
+      "agency_url": "https://kochimetro.org/",
+      "agency_timezone": "Asia/Kolkata",
+      "agency_email": "contact@kmrl.co.in",
+      "agency_phone": "1800 425 0355",
+      "agency_fare_url": "https://kochimetro.org/fare-chart/"
+    }
+  ]
+}

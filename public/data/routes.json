@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route_id": "R1",
+      "route_short_name": "KMRL",
+      "route_long_name": "Kochi Metro Route 1",
+      "route_type": 1,
+      "agency_id": "KMRL"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feed_info": {
+    "feed_publisher_name": "Kochi Metro Rail Limited",
+    "feed_publisher_url": "https://kochimetro.org/",
+    "feed_lang": "en",
+    "feed_contact_email": "contact@kmrl.co.in",
+    "feed_contact_url": "https://kochimetro.org/",
+    "feed_start_date": 20240812,
+    "feed_end_date": 20251231,
+    "feed_version": 1.0
+  }
+}

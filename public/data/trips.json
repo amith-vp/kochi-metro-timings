@@ -1,0 +1,3154 @@
+{
+  "trips": [
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_1",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_2",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_22",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_54",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_55",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_56",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_83",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_84",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_120",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_121",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_146",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_147",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_166",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_201",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_202",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_218",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_233",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_234",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_252",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_253",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_4",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_3",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_5",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_14",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_32",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_76",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_77",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_99",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_100",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_101",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_134",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_135",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_160",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_183",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_184",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_185",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_211",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_6",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_7",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_23",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_57",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_58",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_59",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_85",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_86",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_122",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_123",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_148",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_149",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_167",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_168",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_205",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_219",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_235",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_9",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_8",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_10",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_27",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_67",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_68",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_82",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_91",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_92",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_128",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_129",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_154",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_155",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_177",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_178",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_208",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_222",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_240",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_243",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_256",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_12",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_11",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_13",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_28",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_72",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_73",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_96",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_97",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_98",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_132",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_133",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_158",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_159",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_181",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_182",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_210",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_224",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_244",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_245",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_15",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_16",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_24",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_38",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_39",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_78",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_102",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_103",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_104",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_136",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_137",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_161",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_186",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_187",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_188",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_212",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_225",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_246",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_250",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_18",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_17",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_19",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_36",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_46",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_47",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_113",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_112",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_114",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_115",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_142",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_143",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_164",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_197",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_198",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_216",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_228",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_232",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_249",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_20",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_21",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_37",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_52",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_53",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_117",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_116",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_118",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_119",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_144",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_145",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_165",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_199",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_200",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_217",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_229",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_25",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_26",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_64",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_65",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_66",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_89",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_90",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_126",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_127",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_152",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_153",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_175",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_176",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_203",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_204",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_239",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_242",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_254",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_30",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_29",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_31",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_74",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_75",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_34",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_33",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_35",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_44",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_45",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_109",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_108",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_110",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_111",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_140",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_141",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_163",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_195",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_196",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_215",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_227",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_231",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_248",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_41",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_40",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_42",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_43",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_79",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_105",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_106",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_107",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_138",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_139",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_162",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_193",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_194",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_214",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_226",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_49",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_48",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_50",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_51",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_80",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_61",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_60",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_62",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_63",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_87",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_88",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_124",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_125",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_150",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_151",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_169",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_170",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_206",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_220",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_236",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_237",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_255",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_81",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_70",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_69",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_71",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_93",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_94",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_95",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_130",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_131",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_156",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_157",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_179",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_180",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_209",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_223",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_241",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_172",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_171",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_173",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_174",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_207",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_221",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_238",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_190",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_189",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_191",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_192",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_213",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_230",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WK",
+      "trip_id": "WK_247",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_36",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_35",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_37",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_38",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_67",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_68",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_91",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_92",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_115",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_116",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_139",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_140",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_163",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_164",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_1",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_4",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_3",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_5",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_6",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_51",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_52",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_75",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_76",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_99",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_100",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_123",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_124",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_147",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_148",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_168",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_169",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_188",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_8",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_7",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_9",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_10",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_53",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_54",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_77",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_78",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_101",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_102",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_125",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_126",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_149",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_150",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_196",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_195",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_193",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_12",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_11",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_13",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_14",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_55",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_56",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_79",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_80",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_103",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_104",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_127",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_128",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_151",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_152",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_170",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_171",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_16",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_15",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_17",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_18",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_57",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_58",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_81",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_82",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_105",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_106",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_129",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_130",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_153",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_154",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_172",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_173",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_182",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_181",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_183",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_20",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_19",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_21",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_22",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_59",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_60",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_83",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_84",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_107",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_108",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_131",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_132",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_155",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_156",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_194",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_24",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_23",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_25",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_26",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_61",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_62",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_85",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_86",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_109",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_110",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_133",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_134",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_157",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_158",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_174",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_189",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_177",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_28",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_27",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_29",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_30",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_63",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_64",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_87",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_88",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_111",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_112",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_135",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_136",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_159",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_160",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_175",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_185",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_184",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_178",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_32",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_31",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_33",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_34",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_65",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_66",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_89",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_90",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_113",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_114",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_137",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_138",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_161",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_162",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_190",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_179",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_40",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_39",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_41",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_42",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_69",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_70",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_93",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_94",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_117",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_118",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_141",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_142",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_191",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_180",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_44",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_43",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_45",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_46",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_71",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_72",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_95",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_96",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_119",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_120",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_143",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_144",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_165",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_166",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_186",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_187",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_192",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_48",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_47",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_49",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_50",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_73",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_74",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_97",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_98",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_121",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_122",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_145",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_146",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_167",
+      "direction_id": 1,
+      "shape_id": "R1_1"
+    },
+    {
+      "route_id": "R1",
+      "service_id": "WE",
+      "trip_id": "WE_2",
+      "direction_id": 0,
+      "shape_id": "R1_0"
+    }
+  ]
+}

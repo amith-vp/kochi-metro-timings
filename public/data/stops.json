@@ -1,0 +1,529 @@
+{
+  "stops": [
+    {
+      "stop_id": "ALVA",
+      "stop_lat": 10.1099,
+      "stop_lon": 76.3495,
+      "stop_name": "Aluva",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "ALVA",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d06\u0d32\u0d41\u0d35"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0906\u0932\u0941\u0935\u093e"
+        }
+      ]
+    },
+    {
+      "stop_id": "PNCU",
+      "stop_lat": 10.0951,
+      "stop_lon": 76.3466,
+      "stop_name": "Pulinchodu",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "PNCU",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2a\u0d41\u0d33\u0d3f\u0d1e\u0d4d\u0d1a\u0d4b\u0d1f\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092a\u0941\u0932\u093f\u0928\u091a\u094b\u0921\u0941"
+        }
+      ]
+    },
+    {
+      "stop_id": "CPPY",
+      "stop_lat": 10.0873,
+      "stop_lon": 76.3428,
+      "stop_name": "Companypady",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "CPPY",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d15\u0d2e\u0d4d\u0d2a\u0d28\u0d3f\u0d2a\u0d4d\u0d2a\u0d1f\u0d3f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0915\u0902\u092a\u0928\u0940\u092a\u0921\u0940"
+        }
+      ]
+    },
+    {
+      "stop_id": "ATTK",
+      "stop_lat": 10.0793,
+      "stop_lon": 76.3389,
+      "stop_name": "Ambattukavu",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "ATTK",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d05\u0d2e\u0d4d\u0d2a\u0d3e\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d3e\u0d35\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0905\u092e\u094d\u092c\u093e\u091f\u0941\u0915\u093e\u0935\u094d"
+        }
+      ]
+    },
+    {
+      "stop_id": "MUTT",
+      "stop_lat": 10.0727,
+      "stop_lon": 76.3336,
+      "stop_name": "Muttom",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "MUTT",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2e\u0d41\u0d1f\u0d4d\u0d1f\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092e\u0941\u091f\u094d\u091f\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "KLMT",
+      "stop_lat": 10.0586,
+      "stop_lon": 76.322,
+      "stop_name": "Kalamassery",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "KLMT",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d15\u0d33\u0d2e\u0d36\u0d4d\u0d36\u0d47\u0d30\u0d3f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0915\u0932\u092e\u0936\u0947\u0930\u0940"
+        }
+      ]
+    },
+    {
+      "stop_id": "CCUV",
+      "stop_lat": 10.0467,
+      "stop_lon": 76.3182,
+      "stop_name": "Cochin University",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "CCUV",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d15\u0d46\u0d3e\u0d1a\u0d4d\u0d1a\u0d3f\u0d7b \u0d2f\u0d42\u0d23\u0d3f\u0d35\u0d47\u0d34\u0d4d\u0d38\u0d3f\u0d31\u0d4d\u0d31\u0d3f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0915\u094b\u091a\u094d\u091a\u093f\u0928 \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938\u093f\u091f\u0940"
+        }
+      ]
+    },
+    {
+      "stop_id": "PDPM",
+      "stop_lat": 10.0361,
+      "stop_lon": 76.3144,
+      "stop_name": "Pathadipalam",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "PDPM",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2a\u0d24\u0d4d\u0d24\u0d1f\u0d3f\u0d2a\u0d4d\u0d2a\u0d4b\u0d32\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092a\u0924\u094d\u0924\u0921\u093f\u092a\u094d\u092a\u093e\u0932\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "EDAP",
+      "stop_lat": 10.0251,
+      "stop_lon": 76.3083,
+      "stop_name": "Edapally",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "EDAP",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d07\u0d1f\u0d2a\u0d4d\u0d2a\u0d33\u0d4d\u0d33\u0d3f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0907\u0921\u092a\u094d\u092a\u0932\u094d\u0932\u0940"
+        }
+      ]
+    },
+    {
+      "stop_id": "CGPP",
+      "stop_lat": 10.0152,
+      "stop_lon": 76.3023,
+      "stop_name": "Changampuzha Park",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "CGPP",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d1a\u0d19\u0d4d\u0d19\u0d2e\u0d4d\u0d2a\u0d41\u0d34 \u0d2a\u0d3e\u0d7c\u0d15\u0d4d\u0d15\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u091a\u0902\u0917\u092e\u092a\u0941\u0937\u093c\u093e \u092a\u093e\u0930\u094d\u0915"
+        }
+      ]
+    },
+    {
+      "stop_id": "PARV",
+      "stop_lat": 10.0064,
+      "stop_lon": 76.3048,
+      "stop_name": "Palarivattom",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "PARV",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2a\u0d3e\u0d32\u0d3e\u0d30\u0d3f\u0d35\u0d1f\u0d4d\u0d1f\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092a\u093e\u0932\u093e\u0930\u093f\u0935\u091f\u094d\u091f\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "JLSD",
+      "stop_lat": 10.0002,
+      "stop_lon": 76.2989,
+      "stop_name": "JLN Stadium",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "JLSD",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d1c\u0d46 \u0d0e\u0d7d \u0d0e\u0d7b \u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d47\u0d21\u0d3f\u0d2f\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u091c\u0947.\u090f\u0932.\u090f\u0928 \u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "KALR",
+      "stop_lat": 9.9943,
+      "stop_lon": 76.2914,
+      "stop_name": "Kaloor",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "KALR",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d15\u0d32\u0d42\u0d7c"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0915\u0932\u0942\u0930"
+        }
+      ]
+    },
+    {
+      "stop_id": "TNHL",
+      "stop_lat": 9.9913775,
+      "stop_lon": 76.2883601,
+      "stop_name": "Town Hall",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "TNHL",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d1f\u0d57\u0d7a \u0d39\u0d3e\u0d7e"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u091f\u093e\u0909\u0928 \u0939\u0949\u0932"
+        }
+      ]
+    },
+    {
+      "stop_id": "MGRD",
+      "stop_lat": 9.9834,
+      "stop_lon": 76.2823,
+      "stop_name": "MG Road",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "MGRD",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d0e\u0d02.\u0d1c\u0d3f \u0d31\u0d4b\u0d21\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u090f\u092e \u091c\u0940 \u0930\u094b\u0921"
+        }
+      ]
+    },
+    {
+      "stop_id": "MACE",
+      "stop_lat": 9.9732,
+      "stop_lon": 76.2851,
+      "stop_name": "Maharajas College",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "MACE",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2e\u0d39\u0d3e\u0d30\u0d3e\u0d1c\u0d3e\u0d38\u0d4d \u0d15\u0d4b\u0d33\u0d47\u0d1c\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092e\u0939\u093e\u0930\u093e\u091c\u093e\u0938\u094d \u0915\u0949\u0932\u091c"
+        }
+      ]
+    },
+    {
+      "stop_id": "ERSH",
+      "stop_lat": 9.9686042,
+      "stop_lon": 76.2895744,
+      "stop_name": "Ernakulam South",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "ERSH",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d0e\u0d31\u0d23\u0d3e\u0d15\u0d41\u0d33\u0d02 \u0d38\u0d57\u0d24\u0d4d\u0d24\u0d4d"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u090f\u0930\u094d\u0928\u093e\u0915\u0941\u0932\u092e \u0938\u093e\u0909\u0925"
+        }
+      ]
+    },
+    {
+      "stop_id": "KVTR",
+      "stop_lat": 9.9665809,
+      "stop_lon": 76.2981877,
+      "stop_name": "Kadavanthra",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "KVTR",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d15\u0d1f\u0d35\u0d28\u0d4d\u0d24\u0d4d\u0d30"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0915\u0921\u0935\u093e\u0928\u094d\u0924\u094d\u0930"
+        }
+      ]
+    },
+    {
+      "stop_id": "EMKM",
+      "stop_lat": 9.9671248,
+      "stop_lon": 76.3084899,
+      "stop_name": "Elamkulam",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "EMKM",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d07\u0d33\u0d19\u0d4d\u0d15\u0d41\u0d33\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u090f\u0932\u092e\u0915\u0941\u0932\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "VYTA",
+      "stop_lat": 9.9675457,
+      "stop_lon": 76.3203664,
+      "stop_name": "Vyttila",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "VYTA",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d35\u0d48\u0d31\u0d4d\u0d31\u0d3f\u0d32"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0935\u094d\u092f\u0924\u094d\u0924\u093f\u0932\u093e"
+        }
+      ]
+    },
+    {
+      "stop_id": "THYK",
+      "stop_lat": 9.9600311,
+      "stop_lon": 76.3236762,
+      "stop_name": "Thykoodam",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "THYK",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d24\u0d48\u0d15\u0d4d\u0d15\u0d42\u0d1f\u0d02"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0925\u093e\u0908\u0915\u0942\u0921\u092e"
+        }
+      ]
+    },
+    {
+      "stop_id": "PETT",
+      "stop_lat": 9.9524842,
+      "stop_lon": 76.3302101,
+      "stop_name": "Pettah",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "PETT",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d2a\u0d47\u0d1f\u0d4d\u0d1f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u092a\u0947\u091f\u094d\u091f\u093e"
+        }
+      ]
+    },
+    {
+      "stop_id": "VAKK",
+      "stop_lat": 9.952838,
+      "stop_lon": 76.3394827,
+      "stop_name": "Vadakkekotta",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "VAKK",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d35\u0d1f\u0d15\u0d4d\u0d15\u0d47\u0d15\u0d4d\u0d15\u0d4b\u0d1f\u0d4d\u0d1f"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0935\u0921\u0915\u094d\u0915\u0947\u0915\u094b\u091f\u093e"
+        }
+      ]
+    },
+    {
+      "stop_id": "SNJN",
+      "stop_lat": 9.9547532,
+      "stop_lon": 76.3458505,
+      "stop_name": "SN Junction",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "SNJN",
+      "wheelchair_boarding": 1,
+      "isMain": false,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d0e\u0d38\u0d4d. \u0d0e\u0d7b. \u0d1c\u0d02\u0d17\u0d4d\u0d37\u0d7b"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u090f\u0938.\u090f\u0928. \u091c\u0902\u0915\u094d\u0936\u0928"
+        }
+      ]
+    },
+    {
+      "stop_id": "TPHT",
+      "stop_lat": 9.95078,
+      "stop_lon": 76.35183,
+      "stop_name": "Tripunithura",
+      "stop_desc": "",
+      "location_type": 0,
+      "zone_id": "TPHT",
+      "wheelchair_boarding": 1,
+      "isMain": true,
+      "translations": [
+        {
+          "field_name": "stop_name",
+          "translation": "\u0d24\u0d43\u0d2a\u0d4d\u0d2a\u0d42\u0d23\u0d3f\u0d24\u0d4d\u0d24\u0d41\u0d31"
+        },
+        {
+          "field_name": "stop_name",
+          "translation": "\u0924\u094d\u0930\u093f\u092a\u0941\u0928\u093f\u0925\u0941\u0930\u093e"
+        }
+      ]
+    }
+  ]
+}

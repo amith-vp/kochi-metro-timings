@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom marker styles */
+.station-marker.from {
+  filter: hue-rotate(100deg);
+}
+
+.station-marker.to {
+  filter: hue-rotate(320deg);
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

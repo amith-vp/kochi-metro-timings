@@ -1,0 +1,965 @@
+{
+  "fares": [
+    {
+      "fare_id": "F1",
+      "price": 60.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "PDPM"
+        ],
+        "PNCU": [
+          "TPHT",
+          "EMKM",
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "CPPY": [
+          "TPHT",
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "ATTK": [
+          "TPHT",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "MUTT": [
+          "TPHT",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "KLMT": [
+          "TPHT",
+          "VAKK",
+          "SNJN"
+        ],
+        "CCUV": [
+          "TPHT",
+          "SNJN"
+        ],
+        "PDPM": [
+          "TPHT"
+        ],
+        "ALVA": [
+          "TPHT",
+          "KVTR",
+          "EMKM",
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "KVTR": [
+          "ALVA"
+        ],
+        "EMKM": [
+          "ALVA",
+          "PNCU"
+        ],
+        "VYTA": [
+          "ALVA",
+          "PNCU",
+          "CPPY"
+        ],
+        "THYK": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK"
+        ],
+        "PETT": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT"
+        ],
+        "VAKK": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT"
+        ],
+        "SNJN": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CCUV"
+        ]
+      }
+    },
+    {
+      "fare_id": "F2",
+      "price": 50.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "EDAP": [
+          "TPHT",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "CGPP": [
+          "TPHT",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "PARV": [
+          "TPHT",
+          "VAKK",
+          "SNJN"
+        ],
+        "JLSD": [
+          "TPHT",
+          "SNJN"
+        ],
+        "KALR": [
+          "TPHT",
+          "ALVA"
+        ],
+        "ALVA": [
+          "MACE",
+          "KALR",
+          "TNHL",
+          "MGRD",
+          "ERSH"
+        ],
+        "TNHL": [
+          "ALVA",
+          "PNCU"
+        ],
+        "MGRD": [
+          "ALVA",
+          "PNCU",
+          "CPPY"
+        ],
+        "MACE": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK"
+        ],
+        "ERSH": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT"
+        ],
+        "KVTR": [
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT"
+        ],
+        "EMKM": [
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CCUV"
+        ],
+        "VYTA": [
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "PDPM"
+        ],
+        "THYK": [
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "EDAP"
+        ],
+        "PETT": [
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "EDAP",
+          "CGPP"
+        ],
+        "VAKK": [
+          "CCUV",
+          "PDPM",
+          "EDAP",
+          "CGPP",
+          "PARV"
+        ],
+        "SNJN": [
+          "PDPM",
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "PNCU": [
+          "TNHL",
+          "MGRD",
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "CPPY": [
+          "MGRD",
+          "MACE",
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ],
+        "ATTK": [
+          "MACE",
+          "ERSH",
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "MUTT": [
+          "ERSH",
+          "KVTR",
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "KLMT": [
+          "KVTR",
+          "EMKM",
+          "VYTA",
+          "THYK",
+          "PETT"
+        ],
+        "CCUV": [
+          "EMKM",
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "PDPM": [
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ]
+      }
+    },
+    {
+      "fare_id": "F3",
+      "price": 40.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "TNHL",
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "TNHL": [
+          "TPHT",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "MGRD": [
+          "TPHT",
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "VAKK",
+          "SNJN"
+        ],
+        "MACE": [
+          "TPHT",
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "SNJN"
+        ],
+        "ERSH": [
+          "TPHT",
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "EDAP"
+        ],
+        "EDAP": [
+          "ALVA",
+          "ERSH",
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "CGPP": [
+          "ALVA",
+          "PNCU",
+          "KVTR",
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "PARV": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "EMKM",
+          "VYTA",
+          "THYK",
+          "PETT"
+        ],
+        "JLSD": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "VYTA",
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "KALR": [
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "THYK",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "KVTR": [
+          "CCUV",
+          "PDPM",
+          "EDAP",
+          "CGPP"
+        ],
+        "EMKM": [
+          "PDPM",
+          "EDAP",
+          "CGPP",
+          "PARV"
+        ],
+        "ALVA": [
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "VYTA": [
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "PNCU": [
+          "CGPP",
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "THYK": [
+          "CGPP",
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "CPPY": [
+          "PARV",
+          "JLSD",
+          "KALR",
+          "TNHL"
+        ],
+        "PETT": [
+          "PARV",
+          "JLSD",
+          "KALR",
+          "TNHL"
+        ],
+        "ATTK": [
+          "JLSD",
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "VAKK": [
+          "JLSD",
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "MUTT": [
+          "KALR",
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "SNJN": [
+          "KALR",
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "KLMT": [
+          "TNHL",
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "CCUV": [
+          "MGRD",
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "PDPM": [
+          "MACE",
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ]
+      }
+    },
+    {
+      "fare_id": "F4",
+      "price": 30.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "KVTR": [
+          "TPHT",
+          "PARV",
+          "JLSD",
+          "KALR",
+          "VAKK",
+          "SNJN"
+        ],
+        "EMKM": [
+          "TPHT",
+          "JLSD",
+          "KALR",
+          "TNHL",
+          "SNJN"
+        ],
+        "VYTA": [
+          "TPHT",
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "KLMT": [
+          "ALVA",
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "CCUV": [
+          "ALVA",
+          "PNCU",
+          "JLSD",
+          "KALR",
+          "TNHL"
+        ],
+        "PDPM": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "EDAP": [
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "CGPP": [
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "PARV": [
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "JLSD": [
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ],
+        "ALVA": [
+          "KLMT",
+          "CCUV",
+          "PDPM"
+        ],
+        "KALR": [
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "PNCU": [
+          "CCUV",
+          "PDPM",
+          "EDAP"
+        ],
+        "TNHL": [
+          "CCUV",
+          "PDPM",
+          "EDAP",
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "CPPY": [
+          "PDPM",
+          "EDAP",
+          "CGPP"
+        ],
+        "MGRD": [
+          "PDPM",
+          "EDAP",
+          "CGPP",
+          "VYTA",
+          "THYK",
+          "PETT"
+        ],
+        "ATTK": [
+          "EDAP",
+          "CGPP",
+          "PARV"
+        ],
+        "MACE": [
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "MUTT": [
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "ERSH": [
+          "CGPP",
+          "PARV",
+          "JLSD",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "THYK": [
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "PETT": [
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "VAKK": [
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "SNJN": [
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ]
+      }
+    },
+    {
+      "fare_id": "F5",
+      "price": 20.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "THYK": [
+          "TPHT",
+          "ERSH",
+          "KVTR",
+          "EMKM",
+          "VAKK",
+          "SNJN"
+        ],
+        "PETT": [
+          "TPHT",
+          "KVTR",
+          "EMKM",
+          "VYTA",
+          "SNJN"
+        ],
+        "VAKK": [
+          "TPHT",
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "CPPY": [
+          "ALVA",
+          "MUTT",
+          "KLMT",
+          "CCUV"
+        ],
+        "ATTK": [
+          "ALVA",
+          "PNCU",
+          "KLMT",
+          "CCUV",
+          "PDPM"
+        ],
+        "MUTT": [
+          "ALVA",
+          "PNCU",
+          "CPPY",
+          "CCUV",
+          "PDPM",
+          "EDAP"
+        ],
+        "KLMT": [
+          "PNCU",
+          "CPPY",
+          "ATTK",
+          "PDPM",
+          "EDAP",
+          "CGPP"
+        ],
+        "ALVA": [
+          "CPPY",
+          "ATTK",
+          "MUTT"
+        ],
+        "CCUV": [
+          "CPPY",
+          "ATTK",
+          "MUTT",
+          "EDAP",
+          "CGPP",
+          "PARV"
+        ],
+        "PNCU": [
+          "ATTK",
+          "MUTT",
+          "KLMT"
+        ],
+        "PDPM": [
+          "ATTK",
+          "MUTT",
+          "KLMT",
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "EDAP": [
+          "MUTT",
+          "KLMT",
+          "CCUV",
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "CGPP": [
+          "KLMT",
+          "CCUV",
+          "PDPM",
+          "JLSD",
+          "KALR",
+          "TNHL"
+        ],
+        "PARV": [
+          "CCUV",
+          "PDPM",
+          "EDAP",
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "JLSD": [
+          "PDPM",
+          "EDAP",
+          "CGPP",
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "KALR": [
+          "EDAP",
+          "CGPP",
+          "PARV",
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "TNHL": [
+          "CGPP",
+          "PARV",
+          "JLSD",
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "MGRD": [
+          "PARV",
+          "JLSD",
+          "KALR",
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ],
+        "MACE": [
+          "JLSD",
+          "KALR",
+          "TNHL",
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "ERSH": [
+          "KALR",
+          "TNHL",
+          "MGRD",
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "KVTR": [
+          "TNHL",
+          "MGRD",
+          "MACE",
+          "VYTA",
+          "THYK",
+          "PETT"
+        ],
+        "EMKM": [
+          "MGRD",
+          "MACE",
+          "ERSH",
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "VYTA": [
+          "MACE",
+          "ERSH",
+          "KVTR",
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ],
+        "SNJN": [
+          "VYTA",
+          "THYK",
+          "PETT"
+        ]
+      }
+    },
+    {
+      "fare_id": "F6",
+      "price": 10.0,
+      "currency_type": "INR",
+      "payment_method": 1,
+      "transfers": false,
+      "rules": {
+        "TPHT": [
+          "SNJN",
+          "TPHT"
+        ],
+        "SNJN": [
+          "TPHT",
+          "VAKK",
+          "SNJN"
+        ],
+        "PNCU": [
+          "ALVA",
+          "PNCU",
+          "CPPY"
+        ],
+        "ALVA": [
+          "ALVA",
+          "PNCU"
+        ],
+        "CPPY": [
+          "PNCU",
+          "CPPY",
+          "ATTK"
+        ],
+        "ATTK": [
+          "CPPY",
+          "ATTK",
+          "MUTT"
+        ],
+        "MUTT": [
+          "ATTK",
+          "MUTT",
+          "KLMT"
+        ],
+        "KLMT": [
+          "MUTT",
+          "KLMT",
+          "CCUV"
+        ],
+        "CCUV": [
+          "KLMT",
+          "CCUV",
+          "PDPM"
+        ],
+        "PDPM": [
+          "CCUV",
+          "PDPM",
+          "EDAP"
+        ],
+        "EDAP": [
+          "PDPM",
+          "EDAP",
+          "CGPP"
+        ],
+        "CGPP": [
+          "EDAP",
+          "CGPP",
+          "PARV"
+        ],
+        "PARV": [
+          "CGPP",
+          "PARV",
+          "JLSD"
+        ],
+        "JLSD": [
+          "PARV",
+          "JLSD",
+          "KALR"
+        ],
+        "KALR": [
+          "JLSD",
+          "KALR",
+          "TNHL"
+        ],
+        "TNHL": [
+          "KALR",
+          "TNHL",
+          "MGRD"
+        ],
+        "MGRD": [
+          "TNHL",
+          "MGRD",
+          "MACE"
+        ],
+        "MACE": [
+          "MGRD",
+          "MACE",
+          "ERSH"
+        ],
+        "ERSH": [
+          "MACE",
+          "ERSH",
+          "KVTR"
+        ],
+        "KVTR": [
+          "ERSH",
+          "KVTR",
+          "EMKM"
+        ],
+        "EMKM": [
+          "KVTR",
+          "EMKM",
+          "VYTA"
+        ],
+        "VYTA": [
+          "EMKM",
+          "VYTA",
+          "THYK"
+        ],
+        "THYK": [
+          "VYTA",
+          "THYK",
+          "PETT"
+        ],
+        "PETT": [
+          "THYK",
+          "PETT",
+          "VAKK"
+        ],
+        "VAKK": [
+          "PETT",
+          "VAKK",
+          "SNJN"
+        ]
+      }
+    }
+  ]
+}
