@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import L, { LatLngTuple, PointTuple, divIcon } from 'leaflet';
 import { Radio } from "lucide-react"; 
 import { useDataContext } from '../context/DataContext';
-import { Clock } from './Clock'; // Import the Clock component
+import { Clock } from './Clock'; 
 
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({

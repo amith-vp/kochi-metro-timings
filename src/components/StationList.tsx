@@ -278,6 +278,9 @@ export default function MetroMapWithLegend() {
                   cy={station.y}
                   r="6"
                   className="fill-white stroke-gray-800 stroke-2 cursor-pointer"
+                  initial={{ scale: 0 }}
+                  animate={isAnimationTriggered ? { scale: 1 } : { scale: 0 }}
+                  transition={{ duration: 0.5, delay: station.id * 0.05 }}
                   whileHover={{ scale: 1.5 }}
                   onClick={() => handleStationClick(station)}
                 />
