@@ -14,7 +14,7 @@ const Footer = () => {
       </p>
       <nav className="flex gap-4 sm:gap-6">
         <a className="text-xs hover:underline underline-offset-4 text-white" href="https://amithv.xyz">by amithv.xyz</a>
-        <a className="text-xs hover:underline underline-offset-4 text-white" href="https://github.com/amith-vp/Kochi-metro">Github</a>
+        <a className="text-xs hover:underline underline-offset-4 text-white" href="https://github.com/amith-vp/Kochi-metro-timings">Github</a>
         <a className="text-xs hover:underline underline-offset-4 text-white" href="https://buymeacoffee.com/amithv">Buy Me a Coffee</a>
       </nav>
     </footer>
