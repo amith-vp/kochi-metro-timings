@@ -22,3 +22,8 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+::selection {
+  background-color: #ffffff; /* A visible blue background */
+  color: #000000; /* White text color */
+}
