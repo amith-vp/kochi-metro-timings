@@ -42,7 +42,7 @@ const FareCalculator: React.FC<FareCalculatorProps> = ({ onStationSelect }) => {
           <select
             value={fromStation}
             onChange={(e) => handleStationChange('from', e.target.value)}
-            className="w-full p-3 bg-white/10 text-white backdrop-blur border border-white/20 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="w-full p-3 bg-white/100 text-black backdrop-blur border border-white/20 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
             <option value="">Select station</option>
             {stations.map((station: { id: string; name: string }) => (
@@ -60,7 +60,7 @@ const FareCalculator: React.FC<FareCalculatorProps> = ({ onStationSelect }) => {
           <select
             value={toStation}
             onChange={(e) => handleStationChange('to', e.target.value)}
-            className="w-full p-3 bg-white/10 text-white backdrop-blur border border-white/20 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="w-full p-3 bg-white/100 text-black backdrop-blur border border-white/20 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
             <option value="">Select station</option>
             {stations.map((station: { id: string; name: string }) => (
