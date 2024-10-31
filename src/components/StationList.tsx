@@ -268,7 +268,7 @@ export default function MetroMapWithLegend() {
               fill="none"
               initial={{ pathLength: 0 }}
               animate={isAnimationTriggered ? { pathLength: 1 } : { pathLength: 0 }}
-              transition={{ duration: 2, ease: "easeInOut" }}
+              transition={{ duration: 1, ease: "easeInOut" }}
             />
             <motion.path
               d={trackPathBackward}
@@ -277,7 +277,7 @@ export default function MetroMapWithLegend() {
               fill="none"
               initial={{ pathLength: 0 }}
               animate={isAnimationTriggered ? { pathLength: 1 } : { pathLength: 0 }}
-              transition={{ duration: 2, ease: "easeInOut", delay: 0.5 }}
+              transition={{ duration: 1, ease: "easeInOut", delay: 0.5  }}
             />
             {stations.map((station) => (
               <g key={station.id}>
@@ -288,7 +288,7 @@ export default function MetroMapWithLegend() {
                   className="fill-white stroke-gray-800 stroke-2 cursor-pointer"
                   initial={{ scale: 0 }}
                   animate={isAnimationTriggered ? { scale: 1 } : { scale: 0 }}
-                  transition={{ duration: 0.5, delay: station.id * 0.05 }}
+                  transition={{ duration: 0.3, delay: 1.2 + station.id * 0.03 }}
                   whileHover={{ scale: 1.5 }}
                   onClick={() => handleStationClick(station)}
                 />
@@ -298,8 +298,8 @@ export default function MetroMapWithLegend() {
                   className="text-[10px] font-medium text-center fill-gray-700 pointer-events-none"
                   textAnchor="middle"
                   initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: station.id * 0.05 }}
+                  animate={isAnimationTriggered ? { opacity: 1 } : { opacity: 0 }}
+                  transition={{ duration: 0.3, delay: 2 + station.id * 0.03 }}
                   transform={`rotate(${station.rotation}, ${station.customPosition.x}, ${station.customPosition.y})`}
                 >
                   {station.name}
