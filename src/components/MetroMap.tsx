@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Polyline, Tooltip, Marker, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L, { LatLngTuple, PointTuple, divIcon } from 'leaflet';
@@ -42,89 +42,185 @@ interface TrainPosition {
   status: string;
 }
 
+
+const parseTime = (timeStr: string) => {
+  const [hours, minutes, seconds] = timeStr.split(':').map(Number);
+  return hours * 3600 + minutes * 60 + seconds;
+};
+
+const findNearestShapePoint = (
+  shapePoints: { coordinates: { lat: number; lon: number }, shape_dist_traveled: number }[],
+  station: Station
+): number => {
+  let minDistance = Infinity;
+  let nearestIndex = -1;
+
+  shapePoints.forEach((point, index) => {
+    const d = Math.sqrt(
+      Math.pow(point.coordinates.lat - station.stop_lat, 2) + 
+      Math.pow(point.coordinates.lon - station.stop_lon, 2)
+    );
+    if (d < minDistance) {
+      minDistance = d;
+      nearestIndex = index;
+    }
+  });
+
+  return nearestIndex;
+};
+
+const findPositionAlongShape = (
+  shapePoints: [number, number][],
+  shapesData: { points: { coordinates: { lat: number; lon: number }, shape_dist_traveled: number }[] },
+  station1: Station,
+  station2: Station,
+  progress: number
+): LatLngTuple => {
+  const idx1 = findNearestShapePoint(shapesData.points, station1);
+  const idx2 = findNearestShapePoint(shapesData.points, station2);
+
+  if (idx1 === -1 || idx2 === -1) {
+    return [
+      station1.stop_lat + progress * (station2.stop_lat - station1.stop_lat),
+      station1.stop_lon + progress * (station2.stop_lon - station1.stop_lon)
+    ];
+  }
+
+  const dist1 = shapesData.points[idx1].shape_dist_traveled;
+  const dist2 = shapesData.points[idx2].shape_dist_traveled;
+  const targetDist = dist1 + progress * (dist2 - dist1);
+
+  let beforeIdx = idx1;
+  let afterIdx = idx1 + 1;
+  while (afterIdx < shapesData.points.length && 
+         shapesData.points[afterIdx].shape_dist_traveled < targetDist) {
+    beforeIdx = afterIdx;
+    afterIdx++;
+  }
+
+  if (afterIdx >= shapesData.points.length) {
+    return [
+      shapesData.points[beforeIdx].coordinates.lat,
+      shapesData.points[beforeIdx].coordinates.lon
+    ];
+  }
+
+  const beforePoint = shapesData.points[beforeIdx];
+  const afterPoint = shapesData.points[afterIdx];
+  const segmentProgress = (targetDist - beforePoint.shape_dist_traveled) / 
+                         (afterPoint.shape_dist_traveled - beforePoint.shape_dist_traveled);
+
+  return [
+    beforePoint.coordinates.lat + segmentProgress * (afterPoint.coordinates.lat - beforePoint.coordinates.lat),
+    beforePoint.coordinates.lon + segmentProgress * (afterPoint.coordinates.lon - beforePoint.coordinates.lon)
+  ];
+};
+
+const getShapeId = (tripId: string, trips: any[]): string | undefined => {
+  const trip = trips.find((t: { trip_id: string; direction_id: number }) => t.trip_id === tripId);
+  return trip?.shape_id;
+};
+
+const PanesSetup = () => {
+  const map = useMap();
+  useEffect(() => {
+    map.createPane('basePolylines');
+    const basePolylinesPane = map.getPane('basePolylines');
+    if (basePolylinesPane) {
+      basePolylinesPane.style.zIndex = '400';
+    }
+    map.createPane('selectedRoute');
+    const selectedRoutePane = map.getPane('selectedRoute');
+    if (selectedRoutePane) {
+      selectedRoutePane.style.zIndex = '450';
+    }
+  }, [map]);
+  return null;
+};
+
 const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }) => {
   const { stopsData, shapesData, stopTimesData, tripsData } = useDataContext();
 
-  const [stations, setStations] = useState<Station[]>([]);
-  const [shapeCoordinates, setShapeCoordinates] = useState<[number, number][]>([]);
+  const stations = useMemo(() => (stopsData ? stopsData.stops : []), [stopsData]);
+
+  const shapeCoordinates = useMemo(() => {
+    if (shapesData) {
+      const coordinates: { [key: string]: [number, number][] } = {};
+      shapesData.shapes.forEach((shape: any) => {
+        coordinates[shape.shape_id] = shape.points.map((point: ShapePoint) => [
+          point.coordinates.lat,
+          point.coordinates.lon,
+        ]);
+      });
+      return coordinates;
+    }
+    return {};
+  }, [shapesData]);
+
+  const stopTimes = useMemo(() => (stopTimesData ? stopTimesData.trips : []), [stopTimesData]);
+
+  const trips = useMemo(() => (tripsData ? tripsData.trips : []), [tripsData]);
+
   const [zoomLevel, setZoomLevel] = useState<number>(12);
   const [trainPositions, setTrainPositions] = useState<TrainPosition[]>([]);
   const [visibleTooltip, setVisibleTooltip] = useState<string | null>(null); 
-  const [stopTimes, setStopTimes] = useState<any[]>([]); 
-  const [trips, setTrips] = useState<any[]>([]); 
 
   useEffect(() => {
-    if (stopsData) {
-      setStations(stopsData.stops);
-    }
-  }, [stopsData]);
-
-  useEffect(() => {
-    if (shapesData) {
-      const coordinates = shapesData.shapes[0].points.map((point: ShapePoint) => [
-        point.coordinates.lat,
-        point.coordinates.lon,
-      ]);
-      setShapeCoordinates(coordinates);
-    }
-  }, [shapesData]);
-
-  useEffect(() => {
-    if (stopTimesData) {
-      setStopTimes(stopTimesData.trips);
-    }
-  }, [stopTimesData]);
-
-  useEffect(() => {
-    if (tripsData) {
-      setTrips(tripsData.trips);
-    }
-  }, [tripsData]);
-
-  useEffect(() => {
-    if (stations.length === 0 || stopTimes.length === 0) return;
+    if (stations.length === 0 || stopTimes.length === 0 || !shapeCoordinates || trips.length === 0) return;
 
     const updateTrainPositions = () => {
       const now = new Date();
       const currentTime = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
-      const currentDay = now.getDay(); 
+      const currentDay = now.getDay();
+
+      const filteredTrips = stopTimes.filter((trip: any) => {
+        if (trip.trip.id.startsWith('WK') && currentDay === 0) return false;
+        if (trip.trip.id.startsWith('WE') && currentDay !== 0) return false;
+        return true;
+      });
+
       const activeTrainPositions: TrainPosition[] = [];
 
-      for (const trip of stopTimes) {
-        if (trip.trip.id.startsWith("WK") && currentDay === 0) {
-          continue;
-        }
-        if (trip.trip.id.startsWith("WE") && currentDay !== 0) {
-          continue;
-        }
+      for (const trip of filteredTrips) {
+        const shapeId = getShapeId(trip.trip.id, trips);
+        if (!shapeId || !shapeCoordinates[shapeId]) continue;
 
         for (let i = 0; i < trip.trip.stops.length - 1; i++) {
-          const [stopId1, arrival1, departure1, distance1] = trip.trip.stops[i];
-          const [stopId2, arrival2, departure2, distance2] = trip.trip.stops[i + 1];
+          const [stopId1, arrival1, departure1] = trip.trip.stops[i];
+          const [stopId2, arrival2] = trip.trip.stops[i + 1];
 
           const arrivalTime1 = parseTime(arrival1);
           const departureTime1 = parseTime(departure1);
           const arrivalTime2 = parseTime(arrival2);
-          const departureTime2 = parseTime(departure2);
 
-          const station1 = stations.find(station => station.stop_id === stopId1);
-          const station2 = stations.find(station => station.stop_id === stopId2);
+          const station1 = stations.find((station: Station) => station.stop_id === stopId1);
+          const station2 = stations.find((station: Station) => station.stop_id === stopId2);
 
-          if (station1 && station2) {
-            let lat, lon, status;
-            if (currentTime >= arrivalTime1 && currentTime < departureTime1) {
-              lat = station1.stop_lat;
-              lon = station1.stop_lon;
-              status = "Arrived";
-            } else if (currentTime >= departureTime1 && currentTime <= arrivalTime2) {
-              const progress = (currentTime - departureTime1) / (arrivalTime2 - departureTime1);
-              lat = station1.stop_lat + progress * (station2.stop_lat - station1.stop_lat);
-              lon = station1.stop_lon + progress * (station2.stop_lon - station1.stop_lon);
+          if (!station1 || !station2) continue;
+
+          let position: LatLngTuple | undefined;
+          let status: string;
+
+          if (currentTime >= arrivalTime1 && currentTime < departureTime1) {
+            position = [station1.stop_lat, station1.stop_lon];
+            status = "Arrived";
+            activeTrainPositions.push({ position, tripId: trip.trip.id, status });
+          } else if (currentTime >= departureTime1 && currentTime <= arrivalTime2) {
+            const progress = (currentTime - departureTime1) / (arrivalTime2 - departureTime1);
+            
+            const [lat, lon] = findPositionAlongShape(
+              shapeCoordinates[shapeId],
+              shapesData.shapes.find((shape: { shape_id: string }) => shape.shape_id === shapeId),
+              station1,
+              station2,
+              progress
+            );
+            
+            if (typeof lat === 'number' && typeof lon === 'number') {
+              position = [lat, lon];
               status = "In Transit";
-            } else {
-              continue;
+              activeTrainPositions.push({ position, tripId: trip.trip.id, status });
             }
-            activeTrainPositions.push({ position: [lat, lon], tripId: trip.trip.id, status });
           }
         }
       }
@@ -134,13 +230,8 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
     const intervalId = setInterval(updateTrainPositions, 1000);
     updateTrainPositions();
 
-    return () => clearInterval(intervalId); 
-  }, [stations, stopTimes]);
-
-  const parseTime = (timeStr: string) => {
-    const [hours, minutes, seconds] = timeStr.split(':').map(Number);
-    return hours * 3600 + minutes * 60 + seconds;
-  };
+    return () => clearInterval(intervalId);
+  }, [stations, stopTimes, shapeCoordinates, trips]);
 
   const mapCenter: LatLngTuple = [10.0206, 76.3215];
 
@@ -172,7 +263,7 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
     if (tripId === selectedTrainId) {
       return '#32cd32'; 
     }
-    const trip = trips.find(t => t.trip_id === tripId);
+    const trip = trips.find((t: { trip_id: string; direction_id: number }) => t.trip_id === tripId);
     return trip ? directionColors[trip.direction_id] : '#4CAF50'; 
   };
 
@@ -195,23 +286,19 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
   });
 
   const getSelectedStationCoordinates = () => {
-    if (!selectedStations) return [];
-    const fromStation = stations.find(station => station.stop_id === selectedStations.from);
-    const toStation = stations.find(station => station.stop_id === selectedStations.to);
+    if (!selectedStations || !shapesData?.shapes[0]) return [];
+    const fromStation = stations.find((station: Station) => station.stop_id === selectedStations.from);
+    const toStation = stations.find((station: Station) => station.stop_id === selectedStations.to);
+    
     if (fromStation && toStation) {
-      const tolerance = 0.001;
-      const fromIndex = shapeCoordinates.findIndex(coord => 
-        Math.abs(coord[0] - fromStation.stop_lat) < tolerance && 
-        Math.abs(coord[1] - fromStation.stop_lon) < tolerance
-      );
-      const toIndex = shapeCoordinates.findIndex(coord => 
-        Math.abs(coord[0] - toStation.stop_lat) < tolerance && 
-        Math.abs(coord[1] - toStation.stop_lon) < tolerance
-      );
-      if (fromIndex !== -1 && toIndex !== -1) {
-        return fromIndex < toIndex
-          ? shapeCoordinates.slice(fromIndex, toIndex + 1)
-          : shapeCoordinates.slice(toIndex, fromIndex + 1).reverse();
+      const shape = shapesData.shapes[0];
+      const idx1 = findNearestShapePoint(shape.points, fromStation);
+      const idx2 = findNearestShapePoint(shape.points, toStation);
+      
+      if (idx1 !== -1 && idx2 !== -1) {
+        const startIdx = Math.min(idx1, idx2);
+        const endIdx = Math.max(idx1, idx2);
+        return shape.points.slice(startIdx, endIdx + 1).map((p: { coordinates: { lat: number; lon: number } }) => [p.coordinates.lat, p.coordinates.lon]);
       }
     }
     return [];
@@ -235,24 +322,31 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
           style={{ height: '100%', width: '100%' }}
           className="rounded-lg"
         >
+          <PanesSetup />
           <TileLayer
             attribution='&copy; <a href="https://carto.com/attributions">CARTO</a>'
             url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           />
           
-          <Polyline
-            positions={shapeCoordinates}
-            color="#24b49c" 
-            weight={5}
-          />
+          {Object.entries(shapeCoordinates).map(([shapeId, coordinates]) => (
+  <Polyline
+    key={shapeId}
+    positions={coordinates}
+    color={shapeId === 'R1_0' ? '#24b49c' : '#24b49c'} 
+    weight={5}
+    pane="basePolylines"
+  />
+  
+))}
+<Polyline
+  positions={getSelectedStationCoordinates()}
+  color="#d1e61e" 
+  weight={5}
+  pane="selectedRoute"
+/>
 
-          <Polyline
-            positions={getSelectedStationCoordinates()}
-            color="#d1e61e" 
-            weight={5}
-          />
 
-          {stations.map((station) => {
+          {stations.map((station: Station) => {
             const isSelected = selectedStations && (station.stop_id === selectedStations.from || station.stop_id === selectedStations.to);
             const isDeparture = selectedStations && station.stop_id === selectedStations.from;
             const direction = station.stop_lon > mapCenter[1] ? 'right' : 'left';
