@@ -137,6 +137,7 @@ export default function MetroMapWithLegend() {
       const currentTime = new Date();
       const currentHours = currentTime.getHours();
       const currentMinutes = currentTime.getMinutes();
+      const currentTotalMinutes = currentHours * 60 + currentMinutes;
       const currentDay = currentTime.toLocaleString('en-US', { weekday: 'long' }).toLowerCase() as keyof typeof calendarData.service_calendar[0]['days'];
       const stationCode = stationCodeMap[selectedStation.name as keyof typeof stationCodeMap];
 
@@ -146,8 +147,9 @@ export default function MetroMapWithLegend() {
 
         const departureTime = trip.trip.stops[fromIndex][2].toString();
         const [hours, minutes] = departureTime.split(':').map(Number);
+        const departureTotalMinutes = hours * 60 + minutes;
 
-        if (hours < currentHours || (hours === currentHours && minutes <= currentMinutes)) return [];
+        if (departureTotalMinutes < currentTotalMinutes) return [];
 
         const tripData = tripsData.trips.find((t: any) => t.trip_id === trip.trip.id);
         const direction = tripData?.direction_id === 0 ? 'Thrippunithura' : 'Aluva';
@@ -165,18 +167,24 @@ export default function MetroMapWithLegend() {
 
         return [{
           departureTime: formattedTime,
+          departureTotalMinutes,
           direction
         }];
       });
 
-      const sortedTrains = trains.sort((a: any, b: any) => {
-        const [aHours, aMinutes] = a.departureTime.split(':').map(Number);
-        const [bHours, bMinutes] = b.departureTime.split(':').map(Number);
-        return aHours * 60 + aMinutes - (bHours * 60 + bMinutes);
-      });
+      const sortedTrains = trains.sort((a: any, b: any) => 
+        a.departureTotalMinutes - b.departureTotalMinutes
+      );
 
-      const aluvaTrains = sortedTrains.filter((train: any) => train.direction === 'Aluva').map((train: any) => train.departureTime).slice(0, 3);
-      const thrippunithuraTrains = sortedTrains.filter((train: any) => train.direction === 'Thrippunithura').map((train: any) => train.departureTime).slice(0, 3);
+      const aluvaTrains = sortedTrains
+        .filter((train: any) => train.direction === 'Aluva')
+        .map((train: any) => train.departureTime)
+        .slice(0, 3);
+
+      const thrippunithuraTrains = sortedTrains
+        .filter((train: any) => train.direction === 'Thrippunithura')
+        .map((train: any) => train.departureTime)
+        .slice(0, 3);
 
       return { aluva: aluvaTrains, thrippunithura: thrippunithuraTrains };
     };
