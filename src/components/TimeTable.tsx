@@ -30,6 +30,13 @@ const TimeTable: React.FC<TimeTableProps> = ({ fromStation, toStation, onTrainSe
     return now.toTimeString().slice(0, 5);
   });
 
+  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newDate = new Date(e.target.value);
+    if (!isNaN(newDate.getTime())) { 
+      setSelectedDate(newDate);
+    }
+  };
+
   const stationNameMap = stopsData ? stopsData.stops.reduce((map: Record<string, string>, stop: { stop_id: string; stop_name: string }) => {
     map[stop.stop_id] = stop.stop_name;
     return map;
@@ -185,8 +192,10 @@ const TimeTable: React.FC<TimeTableProps> = ({ fromStation, toStation, onTrainSe
               <input
                 type="date"
                 id="date"
-                value={selectedDate.toISOString().split('T')[0]}
-                onChange={(e) => setSelectedDate(new Date(e.target.value))}
+                value={selectedDate instanceof Date && !isNaN(selectedDate.getTime()) 
+                  ? selectedDate.toISOString().split('T')[0] 
+                  : new Date().toISOString().split('T')[0]}
+                onChange={handleDateChange}
                 className="border rounded-lg px-2 py-1 blur-background"
               />
             </div>
