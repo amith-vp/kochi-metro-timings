@@ -49,7 +49,7 @@ function App() {
               <QuickInfoCard
                 icon={<Train />}
                 title="Frequency"
-                description="Every 10 minutes during peak hours"
+                description="Every 7 minutes during peak hours"
               />
               <QuickInfoCard
                 icon={<IndianRupee />}
