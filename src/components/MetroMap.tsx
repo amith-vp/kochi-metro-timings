@@ -325,7 +325,7 @@ const MetroMap: React.FC<MetroMapProps> = ({ selectedStations, selectedTrainId }
           <PanesSetup />
           <TileLayer
             attribution='&copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_3vev_1_6040eb94786dead7ccea9837"
           />
           
           {Object.entries(shapeCoordinates).map(([shapeId, coordinates]) => (
